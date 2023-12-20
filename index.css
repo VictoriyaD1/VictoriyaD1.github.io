@@ -1,0 +1,98 @@
+body {
+  line-height: 1, 5em;
+  background-color: rgb(119, 113, 113);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.leftcol {
+  vertical-align: middle;
+}
+
+.logo {
+  float: left;
+  width: 600px;
+  height: 740px;
+}
+
+* {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.navigation {
+  background-color: rgb(119, 113, 113);
+  overflow: hidden;
+  padding: 10px;
+}
+
+.navigation a {
+  float: right;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navigation a:hover {
+  color: rgb(250, 194, 162);
+}
+
+.textcols {
+  white-space: nowrap;
+}
+.textcols-item {
+  white-space: normal;
+  padding: 10px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  background-color: rgb(233, 229, 229);
+  /* margin-right: 5%; */
+  font-size: 25px;
+  max-width: 1500px;
+  margin: auto;
+  line-height: 1, 3em;
+}
+
+.textcols .textcols-item:last-child {
+  margin-right: 0;
+}
+
+.icon1 {
+  width: 80px;
+  height: 80px;
+}
+
+.icon2 {
+  width: 80px;
+  height: 80px;
+}
+
+.icon3 {
+  width: 80px;
+  height: 80px;
+}
+
+.button {
+  background-color: rgb(117, 156, 175);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4px 2 px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.git:hover img {
+  background-color: rgb(194, 183, 183);
+  transform: scale(1.3);
+}
+
+#copy {
+  line-height: 3em;
+  font-size: 20px;
+}
